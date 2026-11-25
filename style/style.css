@@ -1,0 +1,39 @@
+body{
+    background-image: url(/img/sobre.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+}
+
+.cabecalho{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 10px 20px;
+}
+
+.logo{
+    width: 350px;
+    height: auto;
+}
+
+.menu{
+    display: flex;
+    gap: 36px;
+    margin-right: 65px;
+}
+
+.menu-link{
+    color: #f4f1f6;
+    text-decoration: none;
+    font-size: 25px;
+    padding: 6px 0 0;
+    border-bottom: 2px solid transparent;
+}
+
+.menu-link:hover{
+    color: #d4af37;
+    transition: 0.3s linear;
+    border-bottom: 2px solid #d4af37;
+}
