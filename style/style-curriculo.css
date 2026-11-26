@@ -1,0 +1,66 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/img/curriculo.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f4f1f6;
+}
+
+.curriculo {
+    max-width: 750px;
+    margin: auto;
+    padding: 40px 20px;
+    text-align: center;
+}
+
+.curriculo h1 {
+    color: #d4af37;
+    margin-bottom: 15px;
+}
+
+.subtitulo {
+    color: #fffdd0;
+    margin-bottom: 30px;
+}
+
+.formulario {
+    background-color: rgba(20, 20, 20, 0.92);
+    border: 1px solid #d4af37;
+    border-radius: 15px;
+    padding: 30px;
+    text-align: left;
+}
+
+.formulario h3 {
+    color: #d4af37;
+}
+
+.formulario label {
+    display: block;
+    color: #fffdd0;
+    margin-top: 15px;
+    margin-bottom: 8px;
+}
+
+.campo {
+    width: 100%;
+    padding: 10px;
+    background-color: #252525;
+    color: #fffdd0;
+    border: 1px solid #d4af37;
+    border-radius: 5px;
+}
+
+.termos {
+    margin: 20px 0;
+    color: #fffdd0;
+}
+
+.botao-enviar {
+    width: 100%;
+}
