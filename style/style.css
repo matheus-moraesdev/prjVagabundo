@@ -73,7 +73,8 @@ body{
 .card:hover{
     border-color: #d4af37;
     transform: translateY(-7.5%);
-    transition: 0.5s;
+    transition: 0.9s;
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);;
 }
 
 .card h2{

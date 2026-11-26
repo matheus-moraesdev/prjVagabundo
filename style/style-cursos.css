@@ -78,4 +78,5 @@ body{
 .card-curso:hover{
     transform: translateY(-6%);
     transition: 0.5s;
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);;
 }
