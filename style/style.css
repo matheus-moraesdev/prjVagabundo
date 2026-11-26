@@ -1,9 +1,16 @@
+
+*{
+    box-sizing: border-box;
+}
+
 body{
     background-image: url(/img/sobre.png);
     background-size: cover;
     background-position: center;
     background-repeat: no-repeat;
     background-attachment: fixed;
+    color: #f4f1f6;
+    background-color: rgba(0, 0, 0, 0.3);
 }
 
 .cabecalho{
@@ -21,7 +28,7 @@ body{
 .menu{
     display: flex;
     gap: 36px;
-    margin-right: 65px;
+    margin-right: 50px;
 }
 
 .menu-link{
@@ -37,3 +44,44 @@ body{
     transition: 0.3s linear;
     border-bottom: 2px solid #d4af37;
 }
+
+.cards{
+    display: flex;
+    flex-wrap: wrap;
+    gap: 24px;
+    margin-left: 33.5%;
+}
+
+.card{
+    max-width: 280px;
+    flex: 1 1 220px;
+    background-color: #0e0e0e;
+    border: 2px solid #b8860b;
+    border-radius: 12px;
+    padding: 18px;
+}
+
+.card:hover{
+    border-color: #d4af37;
+    transform: translateY(-7.5%);
+    transition: 0.5s;
+}
+
+.card h2{
+    font-size: 20px;
+}
+
+.card p{
+    font-size: 18px;
+    line-height: 1.5;
+}
+ h1{
+    margin-left: 30%;
+    font-size: 50px;
+    color: #d8e8e8;
+ }
+ h1:hover{
+    transition: 0.5s;
+    transform: translateY(-10%);
+    color: #b8860b;
+ }
