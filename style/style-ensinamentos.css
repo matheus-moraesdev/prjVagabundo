@@ -1,0 +1,59 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/img/ensinamentos.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f4f1f6;
+}
+
+.cards-ensinamentos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card-ensinamento {
+    background-color: rgba(20, 20, 20, 0.85);
+    border: 1px solid #d4af37;
+    border-radius: 15px;
+    width: 280px;
+    padding: 25px;
+    transition: 0.3s;
+}
+
+.card-ensinamento:hover {
+    transform: translateY(-8px);
+    box-shadow: 0 0 15px rgba(212, 175, 55, 0.4);
+}
+
+.icone {
+    font-size: 40px;
+}
+
+.card-ensinamento h2 {
+    color: #d4af37;
+    font-size: 21px;
+    margin: 15px 0;
+}
+
+.card-ensinamento p {
+    color: #fffdd0;
+    line-height: 1.6;
+}
+
+.frase-final {
+    color: #0b0b0b;
+    margin-top: 50px;
+    font-style: italic;
+    text-align: center;
+}
+
+.subtitulo{
+    text-align: center;
+}
