@@ -1,0 +1,81 @@
+*{
+    box-sizing: border-box;
+}
+
+body{
+    background-image: url(/img/cursos.png);
+    background-size: cover;
+    background-position: center;
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    color: #f4f1f6;
+}
+
+.cursos {
+    text-align: center;
+    padding: 40px 20px;
+}
+
+.cursos h1 {
+    color: #f4f1f6;
+    font-size: 35px;
+}
+
+.cursos h1:hover{
+    color:#b8860b;
+}
+
+.subtitulo {
+    color: #fff;
+    margin-bottom: 40px;
+    font-size: 20px;
+    text-align: center;
+}
+
+.cards-cursos {
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: center;
+    gap: 25px;
+}
+
+.card-curso {
+    background-color: rgba(20, 20, 20, 0.9);
+    border: 1px solid #d4af37;
+    border-radius: 15px;
+    width: 290px;
+    padding: 25px;
+}
+
+.icone {
+    font-size: 45px;
+}
+
+.card-curso h2 {
+    color: #d4af37;
+    font-size: 22px;
+    margin: 15px 0;
+}
+
+.card-curso p {
+    color: #fffdd0;
+    line-height: 1.5;
+}
+
+.card-curso h3 {
+    color: #d4af37;
+    margin: 20px 0;
+}
+
+.botao {
+    background-color: #d4af37;
+    color: black;
+    padding: 10px;
+    border-radius: 5px;
+    text-decoration: none;
+}
+
+.cards-cursos:hover{
+    transition: 0.5s;
+    transform: translateY(-7%);
+}
